@@ -7,6 +7,7 @@
 /* HOME */
 body {
     color: #363636;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .banner {
@@ -39,6 +40,16 @@ body {
 
 #missao {
     font-size: 20px;
+}
+
+.mapa {
+    padding: 3em 0;
+
+}
+
+.mapa p {
+    margin-bottom: 2em;
+    text-align: center;
 }
 
 .itens {
