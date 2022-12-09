@@ -267,3 +267,25 @@ footer {
     font-size: 13px;
     margin: 20px 0;
 }
+
+/* SELETORES AVANÇADOS */
+
+/* seleciona os filhos diretos */
+main > p { 
+    background: red;
+}
+
+/* primeiro irmão */
+img + p {
+    background: blue;
+}
+
+/* todos os seletores após a imagem */
+img ~ p {
+    background: yellow;
+}
+
+/* excluir classe */
+.principal p:not(#missao) {
+    background: orange;
+}
