@@ -99,6 +99,13 @@ body {
 
 .imagem-beneficios {
     width: 50%;
+    opacity: 1;
+    transition: all .4s;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+}
+
+.imagem-beneficios:hover {
+    opacity: 0.8;
 }
 
 .video {
@@ -268,24 +275,24 @@ footer {
     margin: 20px 0;
 }
 
-/* SELETORES AVANÇADOS */
+/* SELETORES AVANÇADOS
 
 /* seleciona os filhos diretos */
-main > p { 
+/* main > p { 
     background: red;
-}
+} */
 
 /* primeiro irmão */
-img + p {
+/* img + p {
     background: blue;
-}
+} */
 
 /* todos os seletores após a imagem */
-img ~ p {
+/* img ~ p {
     background: yellow;
-}
+} */
 
 /* excluir classe */
-.principal p:not(#missao) {
+/* .principal p:not(#missao) {
     background: orange;
-}
+}  */
