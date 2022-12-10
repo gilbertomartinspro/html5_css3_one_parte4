@@ -73,7 +73,7 @@ body {
 }
 
 .conteudo-beneficios {
-    display: flex;
+    display: inline-block;
     width: 100%;
 }
 
@@ -81,7 +81,7 @@ body {
     display: inline-block;
     vertical-align: top;
     list-style: none;
-    width: 50%;
+    width: 40%;
 }
 
 .itens {
@@ -98,7 +98,7 @@ body {
 }
 
 .imagem-beneficios {
-    width: 50%;
+    width: 550px;
     opacity: 1;
     transition: all .4s;
     box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
@@ -109,7 +109,7 @@ body {
 }
 
 .video {
-    width: 560px;
+    width: 940px;
     margin: 2em auto;
 }
 
@@ -204,7 +204,9 @@ main {
 
 /* CONTATO */
 form {
-    margin: 40px 0;
+    width: 940px;
+    margin: 0 auto;
+    padding: 40px 0;
 }
 
 fieldset {
@@ -248,7 +250,9 @@ form label, form legend {
 
 /* TABELA */
 table {
-    margin: 20px 0 40px;
+    margin: 0 auto;
+    padding: 40px 0;
+    width: 940px;
 }
 
 thead {
@@ -296,3 +300,4 @@ footer {
 /* .principal p:not(#missao) {
     background: orange;
 }  */
+
